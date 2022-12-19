@@ -1,7 +1,7 @@
 # findCorrelation
-- A Python equivalent for the `findCorrelation` function from the `R` language
+- A Python equivalent for the `findCorrelation` function from the `R` language.
 
-- Different from the `R` version, this function takes a Pandas dataframe and calculates a correlation matrix, instead of taking a correlation matrix directly as input.
+- Different from the `R` version, this function takes a Pandas dataframe and calculates a correlation matrix, instead of taking a correlation matrix directly as input. This was chosen to better acommodate named columns along with a numpy implementation (which is faster). 
 
 - There may be implementation differences relative to the `R` version
 
